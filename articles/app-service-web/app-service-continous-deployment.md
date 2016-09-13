@@ -27,6 +27,8 @@ To enable continuous deployment,
 1. Publish your app content to the repository that will be used for continuous deployment.  
     For more information on publishing your project to these services, see [Create a repo (GitHub)], [Create a repo (BitBucket)], and [Get started with VSTS].
 
+    > [AZURE.NOTE] Only git repositories are supported when using VSTS. If you wish to use Team Foundation Version Control (TFVC), then you must push a deployment using a Deploy step in your VSTS build as detailed [here](https://www.visualstudio.com/en-us/docs/release/examples/azure/azure-web-apps-from-build-and-release-hubs).
+
 2. In your app's blade in the [Azure Portal], click **Settings > Deployment Source**. Click **Choose Source**, then click **GitHub**, for example.  
 
 	![](./media/app-service-continuous-deployment/cd_options.png)
