@@ -26,6 +26,7 @@ To enable continuous deployment,
 
 1. Publish your app content to the repository that will be used for continuous deployment.  
     For more information on publishing your project to these services, see [Create a repo (GitHub)], [Create a repo (BitBucket)], and [Get started with VSTS].
+    > [AZURE.NOTE] Only Git on VSTS is supported with Kudu. If you want to use Team Foundation Version Control (TFVC), you must instead deploy by creating a deployment step as part of a build in VSTS as detailed [here](https://www.visualstudio.com/en-us/docs/release/examples/azure/azure-web-apps-from-build-and-release-hubs).
 
 2. In your app's blade in the [Azure Portal], click **Settings > Deployment Source**. Click **Choose Source**, then click **GitHub**, for example.  
 
